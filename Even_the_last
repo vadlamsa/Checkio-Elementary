@@ -1,0 +1,13 @@
+def checkio(array):
+    sm=0
+    if array!= []:
+        
+       for n in range(len(array)):
+           if n%2==0:
+              sm=sm+array[n]
+       print(sm)
+       ans=sm*(array[len(array)-1])
+       return ans
+    if array ==[]:
+        return 0
+

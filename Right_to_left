@@ -1,0 +1,6 @@
+def left_join(phrases):
+    jp=','.join(phrases)
+    jpn=jp.replace("right","left")
+    print(jpn)
+    return jpn
+    

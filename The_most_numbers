@@ -1,0 +1,11 @@
+def checkio(*args):
+    if args != ():
+       m=max(args)
+       n=min(args)
+       ans=m-n
+       print(ans)
+       return ans
+    else:
+        return 0
+           
+        

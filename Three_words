@@ -1,0 +1,13 @@
+def checkio(words):
+    cnt=0
+    for w in words.split():
+        if w.isalpha():
+            cnt=cnt+1
+            print(cnt)
+        else:
+            cnt=0
+    if cnt>=3:
+        return True
+    else:
+        return False
+            

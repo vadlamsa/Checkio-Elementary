@@ -1,0 +1,8 @@
+def checkio(number):
+    s=str(number)
+    mul=1
+    for n in s:
+        if int(n)!=0:
+            mul=mul*int(n)
+    return(mul)    
+   

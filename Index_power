@@ -1,0 +1,7 @@
+def index_power(array,n):
+    if n in range(len(array)):
+       ans=array[n]**n
+       return ans
+    if n > (len(array)-1):
+        return -1
+        
